@@ -20,8 +20,10 @@ function Wordmark({ dark }: { dark: boolean }) {
         <path fill={dark ? "#0B1F1C" : "#EEF3F1"} d="M4 28.6h24v1.6H4z" />
       </svg>
       <span className={cn("leading-[1.05]", dark ? "text-ink" : "text-foam")}>
-        <span className="block text-[15px] font-semibold tracking-[-0.02em]">Cleaning Service</span>
-        <span className="eyebrow block opacity-60">Moncton</span>
+        <span className="block text-[18px] font-bold tracking-[-0.03em] uppercase">
+  ELAVORA
+</span>
+        <span className="eyebrow block opacity-60">Professional Cleaning Servicesv in Moncton</span>
       </span>
     </Link>
   );
