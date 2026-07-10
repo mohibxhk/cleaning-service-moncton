@@ -13,8 +13,8 @@ export function Footer() {
                 <path fill="#EEF3F1" d="M4 28.6h24v1.6H4z" />
               </svg>
               <span className="leading-[1.05] text-foam">
-                <span className="block text-[15px] font-semibold tracking-[-0.02em]">Cleaning Service</span>
-                <span className="eyebrow block opacity-60">Moncton</span>
+                <span className="block text-[15px] font-semibold tracking-[-0.02em]">Elavora</span>
+                <span className="eyebrow block opacity-60">Professional cleaning service in Moncton</span>
               </span>
             </div>
             <p className="mt-5 max-w-[34ch] text-[14.5px] leading-relaxed">
