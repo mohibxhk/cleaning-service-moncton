@@ -1,4 +1,8 @@
 import type { Metadata } from "next";
+"use client";
+
+import { useState } from "react";
+import QuoteModal from "@/components/quote-modal";
 import { Check } from "lucide-react";
 import { PageHeader } from "@/components/page-header";
 import { Section, ButtonLink, Eyebrow } from "@/components/ui";
@@ -71,6 +75,7 @@ const addons = [
 ];
 
 export default function PricingPage() {
+  const [open, setOpen] = useState(false);
   return (
     <>
       <PageHeader
