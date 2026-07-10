@@ -155,7 +155,7 @@ export const products = [
     name: "Neutral floor cleaner",
     size: "4 L concentrate",
     note: "Dilutes 1:64. Safe on sealed hardwood, LVP and tile.",
-    price: "price: "Trusted by Professionals",
+    price: "Trusted by Professionals",
   },
   {
     name: "Hospital-grade disinfectant",
