@@ -37,11 +37,7 @@ export const areas = [
   { name: "Moncton", minutes: 5 },
   { name: "Dieppe", minutes: 8 },
   { name: "Riverview", minutes: 12 },
-  { name: "Memramcook", minutes: 20 },
-  { name: "Salisbury", minutes: 20 },
   { name: "Shediac", minutes: 25 },
-  { name: "Cap-Pelé", minutes: 35 },
-  { name: "Sackville", minutes: 35 },
 ] as const;
 
 export const services = [
@@ -159,19 +155,19 @@ export const products = [
     name: "Neutral floor cleaner",
     size: "4 L concentrate",
     note: "Dilutes 1:64. Safe on sealed hardwood, LVP and tile.",
-    price: "$34",
+    price: "price: "Trusted by Professionals",
   },
   {
     name: "Hospital-grade disinfectant",
     size: "1 L ready-to-use",
     note: "DIN registered. One-minute contact time.",
-    price: "$18",
+    price: "Commercial Quality",
   },
   {
     name: "Microfibre, colour-coded",
     size: "Pack of 24",
     note: "Four colours so bathroom cloths never reach a countertop.",
-    price: "$42",
+    price: "Eco Friendly",
   },
   {
     name: "Paper & dispenser program",
