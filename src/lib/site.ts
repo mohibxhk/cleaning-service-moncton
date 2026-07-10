@@ -1,3 +1,9 @@
+import {
+  ShieldCheck,
+  CalendarClock,
+ BadgeDollarSign,
+  Sparkles,
+} from "lucide-react";
 export const site = {
   name: "Cleaning Service Moncton",
   legalName: "Cleaning Service Moncton",
@@ -202,5 +208,27 @@ export const processSteps = [
     window: "2:50 — 3:00",
     title: "Second walkthrough",
     body: "We check the space together. Anything missed is fixed before we pack the van.",
+  },
+] as const;
+export const trust = [
+  {
+    icon: ShieldCheck,
+    title: "Fully Insured",
+    body: "Licensed, insured and trusted across Greater Moncton.",
+  },
+  {
+    icon: CalendarClock,
+    title: "Reliable Scheduling",
+    body: "Weekly, bi-weekly or monthly cleaning visits.",
+  },
+  {
+    icon: BadgeDollarSign,
+    title: "Transparent Pricing",
+    body: "Flat quotes with no hidden fees.",
+  },
+  {
+    icon: Sparkles,
+    title: "100% Satisfaction",
+    body: "If something isn't right, we'll come back and make it right.",
   },
 ] as const;
