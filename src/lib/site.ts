@@ -13,7 +13,7 @@ export const site = {
   url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://cleaningservicemoncton.ca",
   phone: "+1 (506) 269-4775",
   phoneHref: "tel:+15062694775",
-  email: "hello@cleaningservicemoncton.ca",
+  email: "homecleaning@elavora.ca",
   address: {
     street: "94 Curry St",
     city: "Moncton",
