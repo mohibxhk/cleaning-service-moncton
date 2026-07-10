@@ -61,21 +61,21 @@ const plans = [
   },
 ];
 const addons = [
-  ["Inside the oven", "$35"],
-  ["Inside the fridge", "$30"],
-  ["Interior windows", "$4 / pane"],
-  ["Laundry, wash and fold", "$25 / load"],
-  ["Cabinet interiors", "$45"],
-  ["Garage sweep-out", "$40"],
+  ["Kitchen Appliances", "Included in Quote"],
+  ["Interior Windows", "Based on Property Size"],
+  ["Laundry Service", "Available on Request"],
+  ["Cabinet Cleaning", "Customized"],
+  ["Garage Cleaning", "Available"],
+  ["Special Requests", "Tailored to Your Needs"],
 ];
 
 export default function PricingPage() {
   return (
     <>
       <PageHeader
-        eyebrow="Pricing"
+        eyebrow="We love to clean your space."
         title="Flat rates, quoted before we start."
-        lede="Prices below are starting points for a standard three-bedroom home. Your number is confirmed after a short walkthrough — in person or over video — and it does not move unless the scope does."
+        lede="Every home and business is different. Tell us about your space, and we'll prepare a personalized, no-obligation quote tailored to your cleaning needs."
       />
 
       <Section tone="light" className="!pt-4">
@@ -120,13 +120,12 @@ export default function PricingPage() {
       <Section tone="foam">
         <div className="grid gap-14 lg:grid-cols-[0.8fr_1.2fr] lg:gap-24">
           <Reveal>
-            <Eyebrow>Add-ons</Eyebrow>
+            <Eyebrow>What's Included</Eyebrow>
             <h2 className="text-[clamp(2rem,4.4vw,3.5rem)] font-semibold leading-[1.05]">
-              Cheaper attached to a visit.
+              Every quote is tailored to your property.
             </h2>
             <p className="mt-6 text-[17.5px] leading-relaxed text-slate">
-              Added to a booked clean, these are the prices. Called out on their own, there is a
-              two-hour minimum.
+              Every home and business is different. We provide a personalized quote based on the size of your property, the type of cleaning required, and any additional services you request. No hidden fees—just transparent, customized pricing.
             </p>
           </Reveal>
 
@@ -140,7 +139,7 @@ export default function PricingPage() {
               ))}
             </dl>
             <p className="mt-6 font-mono text-[11.5px] text-slate">
-              HST not included. Prices held for 90 days from quote.
+              Every quote is free, personalized, and comes with no obligation.
             </p>
           </Reveal>
         </div>
