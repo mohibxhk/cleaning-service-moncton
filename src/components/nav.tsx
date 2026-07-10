@@ -1,3 +1,4 @@
+import Image from "next/image";
 "use client";
 
 import { useEffect, useState } from "react";
@@ -12,19 +13,16 @@ import { cn } from "@/lib/utils";
 function Wordmark({ dark }: { dark: boolean }) {
   return (
     <Link href="/" className="flex items-center gap-3" aria-label={`${site.name} — home`}>
-      <svg viewBox="0 0 32 32" className="h-7 w-7 shrink-0" aria-hidden>
-        <path
-          fill="#E3A63C"
-          d="M16 2c4.6 5.6 8.4 10.2 8.4 15.1A8.4 8.4 0 0 1 16 25.5a8.4 8.4 0 0 1-8.4-8.4C7.6 12.2 11.4 7.6 16 2Z"
-        />
-        <path fill={dark ? "#0B1F1C" : "#EEF3F1"} d="M4 28.6h24v1.6H4z" />
-      </svg>
-      <span className={cn("leading-[1.05]", dark ? "text-ink" : "text-foam")}>
-        <span className="block text-[18px] font-bold tracking-[-0.03em] uppercase">
-  ELAVORA
+      <Image
+  src="/elavora-logo.png"
+  alt="Elavora Home Services"
+  width={60}
+  height={60}
+  className="h-12 w-12 shrink-0 object-contain"
+/>
+      <span className="sr-only">
+  Elavora Home Services
 </span>
-        <span className="eyebrow block opacity-60">Professional Cleaning Servicesv in Moncton</span>
-      </span>
     </Link>
   );
 }
