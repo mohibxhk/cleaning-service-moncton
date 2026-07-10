@@ -154,6 +154,11 @@ export default function PricingPage() {
           </Reveal>
         </div>
       </Section>
+
+      <QuoteModal
+        open={open}
+        onClose={() => setOpen(false)}
+      />
     </>
   );
 }
