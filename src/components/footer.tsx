@@ -18,7 +18,7 @@ export function Footer() {
               </span>
             </div>
             <p className="mt-5 max-w-[34ch] text-[14.5px] leading-relaxed">
-              Residential and commercial cleaning, and commercial-grade supply, for Greater Moncton.
+              Residential and commercial cleaning.
             </p>
             <a href={site.phoneHref} className="mt-6 block text-2xl font-semibold tracking-[-0.03em] text-marigold">
               {site.phone}
