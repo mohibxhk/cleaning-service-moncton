@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import QuoteModal from "@/components/quote-modal";
 import { Check } from "lucide-react";
 import { PageHeader } from "@/components/page-header";
 import { Section, ButtonLink, Eyebrow } from "@/components/ui";
@@ -72,7 +71,6 @@ const addons = [
 ];
 
 export default function PricingPage() {
-  const [open, setOpen] = useState(false);
   return (
     <>
       <PageHeader
@@ -106,17 +104,14 @@ export default function PricingPage() {
                     </li>
                   ))}
                 </ul>
-               <button
-  onClick={() => setOpen(true)}
-  className={cn(
-    "mt-9 inline-flex h-14 items-center justify-center rounded-full px-8 text-[15px] font-medium transition",
-    p.lead
-      ? "bg-marigold text-ink hover:bg-marigold-lift"
-      : "border border-ink/15 hover:bg-ink/[.03]"
-  )}
+                <ButtonLink
+  href="/book"
+  variant={p.lead ? "gold" : "outline"}
+  size="lg"
+  className="mt-9"
 >
-  Get Free Quote
-</button>
+  {p.cta}
+</ButtonLink>
               </article>
             </RevealItem>
           ))}
@@ -152,10 +147,7 @@ export default function PricingPage() {
         </div>
       </Section>
 
-      <QuoteModal
-        open={open}
-        onClose={() => setOpen(false)}
-      />
+     
     </>
   );
 }
