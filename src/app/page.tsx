@@ -7,7 +7,16 @@ import { FaqAccordion } from "@/components/faq-accordion";
 import { Reveal, RevealGroup, RevealItem } from "@/components/reveal";
 import { Section, Eyebrow, ButtonLink } from "@/components/ui";
 import { JsonLd, faqSchema } from "@/lib/schema";
-import { site, services, areas, faqs, testimonials, products, processSteps } from "@/lib/site";
+import {
+  site,
+  services,
+  areas,
+  faqs,
+  testimonials,
+  products,
+  processSteps,
+  trust,
+} from "@/lib/site";
 
 const gallery = [
   {
