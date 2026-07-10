@@ -9,25 +9,24 @@ import { Section, Eyebrow, ButtonLink } from "@/components/ui";
 import { JsonLd, faqSchema } from "@/lib/schema";
 import { site, services, areas, faqs, testimonials, products, processSteps } from "@/lib/site";
 
-const trust = [
-  { icon: Receipt, title: "Flat quotes", body: "One number, agreed before we start. Nothing added to the invoice afterward." },
-  { icon: Repeat, title: "The same crew", body: "The same two cleaners every visit, so nothing has to be re-explained." },
-  { icon: ShieldCheck, title: "Insured & covered", body: "Liability insurance and WorkSafeNB coverage, both current, both on file." },
-  { icon: RotateCcw, title: "48-hour re-clean", body: "A room falls short, we come back and redo it. No argument, no invoice." },
-];
-
 const gallery = [
   {
-    before: "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=1200&q=70",
-    after: "https://images.unsplash.com/photo-1556911220-bff31c812dba?auto=format&fit=crop&w=1200&q=70",
-    alt: "Kitchen",
-    caption: "Kitchen · deep clean · Moncton North",
+    before: "/before-bedroom.JPG",
+    after: "/after-bedroom.JPG",
+    alt: "Bedroom Cleaning",
+    caption: "Bedroom • Before & After",
   },
   {
-    before: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=70",
-    after: "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=1200&q=70",
-    alt: "Living room",
-    caption: "Living space · move-out clean · Dieppe",
+    before: "/before-bathroom.JPG",
+    after: "/after-bathroom.JPG",
+    alt: "Bathroom Cleaning",
+    caption: "Bathroom • Before & After",
+  },
+  {
+    before: "/before-closet.JPG",
+    after: "/after-closet.JPG",
+    alt: "Closet Organization",
+    caption: "Closet • Before & After",
   },
 ];
 
