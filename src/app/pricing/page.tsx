@@ -109,9 +109,17 @@ export default function PricingPage() {
                     </li>
                   ))}
                 </ul>
-                <ButtonLink href="/book" variant={p.lead ? "gold" : "outline"} size="lg" className="mt-9">
-                  {p.cta}
-                </ButtonLink>
+               <button
+  onClick={() => setOpen(true)}
+  className={cn(
+    "mt-9 inline-flex h-14 items-center justify-center rounded-full px-8 text-[15px] font-medium transition",
+    p.lead
+      ? "bg-marigold text-ink hover:bg-marigold-lift"
+      : "border border-ink/15 hover:bg-ink/[.03]"
+  )}
+>
+  Get Free Quote
+</button>
               </article>
             </RevealItem>
           ))}
