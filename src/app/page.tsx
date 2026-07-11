@@ -119,7 +119,7 @@ export default function HomePage() {
           <Reveal delay={0.1}>
             <div className="grid gap-4 sm:grid-cols-2">
               {[
-                { n: "94", l: "Curry St, Moncton" },
+                { n: "1-Hour", l: "Moncton" },
                 { n: `${new Date().getFullYear() - site.founded}`, l: "Years cleaning here" },
                 { n: "8", l: "Communities served" },
                 { n: "48h", l: "Re-clean guarantee" },
